@@ -10,3 +10,7 @@ JWT_SECRET=YOUR_SECRET_KEY
 
 
 Enter your JWT secret key and replace it with YOUR_SECRET_KEY and change MONGO_URL with your URL
+
+
+REGISTER PAGE:
+![image](https://github.com/Moumita2002/rentify-project/assets/102172188/2483ebca-eeea-4652-9aaf-ba1dfcc01528)
