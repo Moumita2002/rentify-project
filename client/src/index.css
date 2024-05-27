@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ============================== loader ==========================*/
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(126, 122, 122);
+  opacity: 0.5;
+}
+
+.loader {
+  height: 48px;
+  border: 5px solid white;
+  width: 48px;
+  border-radius: 50%;
+  border-bottom-color: red;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======================== NAVBAR  =======================*/
+.navbar {
+  color: rgb(0, 21, 255) !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: rgb(3, 28, 249) !important;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.nav-item{
+  font-size: 20px;
+  color:green;
+}
+
+.home h1{
+  text-align: center;
+}
+
+.home form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.home .homedata{
+  padding:5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+ 
+}
+
+.home .subdata{
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bolder;
+  background-color: blueviolet;
+  color:wheat;
+  border: 2px solid white;
+}
+
+.property-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.property-card{
+  padding: 30px;
+ 
+  background-color: burlywood;
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.filters{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding:10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
