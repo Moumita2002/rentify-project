@@ -44,6 +44,9 @@ After applying filters:
 ![image](https://github.com/Moumita2002/rentify-project/assets/102172188/d67e985c-5567-43c5-9f91-b81e0f226dda)
 
 
+This is how my database looks like:
+![image](https://github.com/Moumita2002/rentify-project/assets/102172188/8be01e07-24a3-44af-a2ac-d7e4ff509c5e)
+
   
 
 
