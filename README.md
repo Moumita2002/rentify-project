@@ -1,4 +1,6 @@
 In the backend, make the following changes in .env file:
+
+
 MONGO_URL=mongodb://localhost:27017/rentify
 JWT_SECRET=YOUR_SECRET_KEY
 
